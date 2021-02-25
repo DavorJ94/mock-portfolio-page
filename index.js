@@ -6,6 +6,5 @@ theIcon.addEventListener("click", () => {
     toggleHamburger.style.display = "none";
   } else {
     toggleHamburger.style.display = "block";
-    console.log("hey");
   }
 });
