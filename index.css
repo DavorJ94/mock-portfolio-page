@@ -53,13 +53,10 @@ body {
 
 .container {
   max-width: 800px;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 5em;
-  text-align: center;
   max-height: 100vh;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -74,6 +71,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 4em;
+  text-align: center;
 }
 
 .title {
@@ -88,12 +86,14 @@ body {
 }
 
 .subtitle {
-  font-size: 3rem;
+  font-size: 2.2rem;
   text-transform: uppercase;
   display: block;
   background-color: #17d7c1;
-  width: 100%;
+  width: 90%;
   letter-spacing: 5px;
+  padding: 1em 0.5em;
+  margin: 0 auto;
 }
 
 .title-img {
@@ -170,6 +170,11 @@ body {
   color: #1c1c1c;
   font-size: 1.5rem;
   margin-top: 3em;
+  cursor: pointer;
+}
+
+.btn-see-work:hover {
+  background-color: #05ffe2;
 }
 
 .container-who-i-am {
@@ -242,12 +247,12 @@ body {
 .image-container {
   display: -ms-grid;
   display: grid;
-  width: 100%;
+  width: 90%;
   max-width: 800px;
   justify-items: center;
   margin: 0 auto;
-  -ms-grid-columns: (minmax(200px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   -webkit-column-gap: 0;
           column-gap: 0;
 }
@@ -256,8 +261,8 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   cursor: pointer;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .image-container img:hover {
@@ -275,12 +280,12 @@ body {
 }
 
 .e-mail {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
 }
 
 .font-awesome-icons {
-  margin-top: 2em;
+  margin-top: 1em;
   font-size: 3rem;
 }
 

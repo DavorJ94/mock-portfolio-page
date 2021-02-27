@@ -51,17 +51,16 @@ body {
 
 .container {
   max-width: 800px;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 5em;
-  text-align: center;
   max-height: 100vh;
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-bottom: 4em;
+  text-align: center;
 }
 
 .title {
@@ -76,12 +75,14 @@ body {
 }
 
 .subtitle {
-  font-size: 3rem;
+  font-size: 2.2rem;
   text-transform: uppercase;
   display: block;
   background-color: #17d7c1;
-  width: 100%;
+  width: 90%;
   letter-spacing: 5px;
+  padding: 1em 0.5em;
+  margin: 0 auto;
 }
 
 .title-img {
@@ -147,6 +148,10 @@ body {
   color: #1c1c1c;
   font-size: 1.5rem;
   margin-top: 3em;
+  cursor: pointer;
+}
+.btn-see-work:hover {
+  background-color: #05ffe2;
 }
 .container-who-i-am {
   display: flex;
@@ -208,18 +213,18 @@ body {
 
 .image-container {
   display: grid;
-  width: 100%;
+  width: 90%;
   max-width: 800px;
   justify-items: center;
   margin: 0 auto;
   // grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   column-gap: 0;
 }
 .image-container img {
   object-fit: cover;
   cursor: pointer;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 
 .image-container img:hover {
@@ -235,12 +240,12 @@ body {
 }
 
 .e-mail {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
 }
 
 .font-awesome-icons {
-  margin-top: 2em;
+  margin-top: 1em;
   font-size: 3rem;
 }
 

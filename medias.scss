@@ -1,0 +1,199 @@
+@media (min-width: 700px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar .myLinks {
+    display: inline;
+  }
+
+  .navbar a {
+    padding: 1em;
+    display: inline;
+  }
+
+  .navbar a.icon {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10em;
+  }
+
+  .title-and-subtitle {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    order: 1;
+    margin-left: 2em;
+  }
+  .title,
+  .title strong {
+    font-size: 4.9rem;
+    text-align: start;
+  }
+
+  .subtitle {
+    font-size: 2.5rem;
+    text-align: start;
+    position: relative;
+    height: 1.3em;
+    padding: 0;
+    margin: 0;
+  }
+  .subtitle::before {
+    content: "";
+    position: absolute;
+    background-color: #17d7c1;
+    left: -150%;
+    min-width: 600px;
+    max-width: 800px;
+    height: inherit;
+    z-index: -1;
+  }
+
+  .title-img {
+    max-width: 45%;
+    max-height: 300px;
+    align-self: center;
+    box-shadow: 2px 2px 12px 5px #1c1c1c;
+  }
+
+  .container-black {
+    background-color: #1c1c1c;
+    color: #fbfaf5;
+    text-align: center;
+    padding: 8em 2em;
+  }
+  .header {
+    font-size: 6rem;
+    font-weight: 700;
+    position: relative;
+    color: #17d7c1;
+  }
+
+  .header::after {
+    margin-top: 0.3em;
+  }
+
+  .content {
+    margin-top: 1em;
+    flex-direction: row;
+    max-width: 800px;
+    margin: 0 auto;
+    column-gap: 5em;
+  }
+
+  .subcontent {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+
+  .header-sub {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .container-who-i-am {
+    display: grid;
+    grid-template-columns: auto-fill;
+    grid-template:
+      "header image"
+      "subheader image"
+      "contents image"
+      "contents image";
+    width: 90%;
+    max-width: 800px;
+    padding: 8em 0;
+    column-gap: 3em;
+    align-items: start;
+    justify-content: start;
+  }
+
+  .header-black {
+    grid-area: header;
+    font-size: 6rem;
+    font-weight: 700;
+    margin: 0 0 0.3em 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .desc-who-i-am {
+    grid-area: subheader;
+    height: 2.5em;
+    line-height: 2.5em;
+    font-size: 2.1rem;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  .desc-who-i-am::before {
+    content: "";
+    position: absolute;
+    background-color: #17d7c1;
+    left: -1em;
+    width: 165%;
+    height: inherit;
+    z-index: -1;
+  }
+
+  .who-i-am-img {
+    grid-area: image;
+    max-height: 500px;
+    max-width: 250px;
+    box-shadow: 1px 1px 12px 5px #1c1c1c;
+  }
+
+  .content-who-i-am {
+    grid-area: contents;
+    font-size: 1.5rem;
+    text-align: start;
+    line-height: 1.6;
+  }
+  .content-who-i-am * {
+    padding: 0;
+    margin: 1em 0;
+    width: 80%;
+  }
+
+  .container-my-work {
+    padding: 15em 0;
+  }
+
+  .header-my-work {
+    font-size: 7rem;
+    font-weight: 700;
+    position: relative;
+    color: #fbfaf5;
+    margin: 0;
+    margin-bottom: 0.1em;
+  }
+
+  .desc-my-work {
+    margin: 0;
+    margin-bottom: 1em;
+  }
+
+  .e-mail {
+    font-size: 3.5rem;
+  }
+
+  .font-awesome-icons {
+    margin-top: 1em;
+  }
+}
