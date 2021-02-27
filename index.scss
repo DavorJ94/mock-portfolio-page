@@ -148,3 +148,108 @@ body {
   font-size: 1.5rem;
   margin-top: 3em;
 }
+.container-who-i-am {
+  display: flex;
+  flex-direction: column;
+  margin: 2em auto;
+  align-items: center;
+  width: 90%;
+  max-width: 800px;
+  padding: 2em 0;
+}
+.header-black {
+  font-size: 6rem;
+  font-weight: 700;
+  margin: 1em 0;
+}
+
+.desc-who-i-am {
+  padding: 0.5em;
+  font-size: 4rem;
+  background-color: #17d7c1;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.who-i-am-img {
+  max-height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.content-who-i-am {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.9;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.container-my-work {
+  background-color: #1c1c1c;
+  color: #fbfaf5;
+  text-align: center;
+  padding: 8em 2em 20em 2em;
+  margin: 0 auto;
+}
+
+.header-my-work {
+  font-size: 7rem;
+  font-weight: 700;
+  position: relative;
+  color: #fbfaf5;
+}
+
+.desc-my-work {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #17d7c1;
+  margin: 2em auto;
+}
+
+.image-container {
+  display: grid;
+  width: 100%;
+  max-width: 800px;
+  justify-items: center;
+  margin: 0 auto;
+  // grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  column-gap: 0;
+}
+.image-container img {
+  object-fit: cover;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.image-container img:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 12px 5px #1c1c1c;
+}
+
+.footer {
+  padding: 5em 0;
+  background-color: black;
+  color: #17d7c1;
+  text-align: center;
+}
+
+.e-mail {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.font-awesome-icons {
+  margin-top: 2em;
+  font-size: 3rem;
+}
+
+.font-awesome-icons i {
+  margin: 0 0.5em;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.font-awesome-icons i:hover {
+  transform: scale(1.1);
+}

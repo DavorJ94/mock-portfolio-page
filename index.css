@@ -171,4 +171,130 @@ body {
   font-size: 1.5rem;
   margin-top: 3em;
 }
+
+.container-who-i-am {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2em auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  max-width: 800px;
+  padding: 2em 0;
+}
+
+.header-black {
+  font-size: 6rem;
+  font-weight: 700;
+  margin: 1em 0;
+}
+
+.desc-who-i-am {
+  padding: 0.5em;
+  font-size: 4rem;
+  background-color: #17d7c1;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.who-i-am-img {
+  max-height: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.content-who-i-am {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.9;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.container-my-work {
+  background-color: #1c1c1c;
+  color: #fbfaf5;
+  text-align: center;
+  padding: 8em 2em 20em 2em;
+  margin: 0 auto;
+}
+
+.header-my-work {
+  font-size: 7rem;
+  font-weight: 700;
+  position: relative;
+  color: #fbfaf5;
+}
+
+.desc-my-work {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #17d7c1;
+  margin: 2em auto;
+}
+
+.image-container {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  max-width: 800px;
+  justify-items: center;
+  margin: 0 auto;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  -webkit-column-gap: 0;
+          column-gap: 0;
+}
+
+.image-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.image-container img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 2px 2px 12px 5px #1c1c1c;
+          box-shadow: 2px 2px 12px 5px #1c1c1c;
+}
+
+.footer {
+  padding: 5em 0;
+  background-color: black;
+  color: #17d7c1;
+  text-align: center;
+}
+
+.e-mail {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.font-awesome-icons {
+  margin-top: 2em;
+  font-size: 3rem;
+}
+
+.font-awesome-icons i {
+  margin: 0 0.5em;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  transition: -webkit-transform 0.2s ease;
+  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+}
+
+.font-awesome-icons i:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 /*# sourceMappingURL=index.css.map */
